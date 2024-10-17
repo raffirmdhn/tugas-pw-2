@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+table {
+  width: 100%;
+  border-spacing: 0 5px;
+}
+
+table tr td:first-child {
+  width: 1%;
+  white-space: nowrap;
+  font-weight: bold;
+}
+
+table.table-info tr td:nth-child(2) {
+  /* width: 1%; */
+  /* padding-right: 10px; */
+}
+
+table.table-input tr td:first-child {
+  /* padding-right: 10px; */
+}
+
+input,
+textarea,
+select {
+  padding: 5px;
+  width: 100%;
+}
+
+.border {
+  border: 1px solid #000000;
+}
